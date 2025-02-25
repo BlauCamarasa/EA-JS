@@ -6,7 +6,7 @@ for(let i = 0; i < students.length; i++) {
 }
 
 // Functional Approach
-students.forEach(function (student, index, students) {
+students.forEach(function (student, index, students) {   //estudiant, i , vector sencer
   console.log(student, index, students)
 })
 

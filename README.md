@@ -42,3 +42,9 @@ Ejecutar JS
 ```
 node main.js
 ```
+
+## Fonts Usades
+
+Material JavaScript proporcionat a Atenea (sobretot el video de "Learn JavaScript - Full Course for Beginners" i https://javascript.info/) i a més ChatGPT per saber que estava fent malament quan em sortien errors.
+
+!!!! L'exercici del seminari està a 9-secuential-async.js

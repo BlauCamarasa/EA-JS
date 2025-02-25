@@ -3,7 +3,7 @@
 
 // Given an array of numbers, double each number and return a new array
 const numbers = [1, 2, 3, 4, 5];
-const doubledNumbers = [];
+let doubledNumbers = [];
 
 // Imperative (Non-Functional) Approach
 for (let i = 0; i < numbers.length; i++) {
@@ -51,7 +51,7 @@ console.log(newNumbers); // [1, 2, 3, 4, 5]
 
 
 const person = { nombre: 'Juan', edad: 25 };
-const newPerson = { ...person, edad: 26 }; 
+const newPerson = { ...person, edad: 26 }; // Amb els tres punts copia tot lo que hi ha a persona i despres canvia la edat, s'ha de crear un objecte nou
 console.log(newPerson);  // { nombre: 'Juan', edad: 26 }
 
 
@@ -66,7 +66,7 @@ function multiply (a, b) {
 	return a * b;
 }
 
-console.log(aplicarOperacion(3, 4, multiply));  // 12
+console.log(applyOperation(3, 4, multiply));  // 12
 
 
 

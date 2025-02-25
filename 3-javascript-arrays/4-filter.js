@@ -21,3 +21,6 @@ console.log(result1);
 // Functional Approach with Arrow Function
 const result2 = students.filter((student) => student.age > 21);
 console.log(result2);
+
+
+/// === obliga a que sigui del mateix valor i del mateix tipus
